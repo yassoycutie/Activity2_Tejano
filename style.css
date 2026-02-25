@@ -1,0 +1,85 @@
+body {
+    background: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.resume {
+    width: 900px;
+    margin: 30px auto;
+    background: white;
+    border: 2px solid #f4b6c2;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 50px;               
+    padding: 30px;
+}
+
+.header div:first-child {
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 38px;
+}
+
+.role {
+    display: inline-block;
+    background: #f4b6c2;
+    color: white;
+    padding: 6px 15px;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+/* PHOTO */
+.photo img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 6px solid #f4b6c2;
+    object-fit: cover;
+}
+
+/* PINK SECTION */
+.pink-section {
+    background: #fde4ea;
+    padding: 25px;
+    text-align: center;
+}
+
+.pink-section h2 {
+    margin-top: 0;
+}
+
+/* CONTENT */
+.content {
+    display: flex;
+    padding: 30px;
+}
+
+.left, .right {
+    width: 50%;
+}
+
+.left {
+    padding-right: 20px;
+    border-right: 2px solid #f4b6c2;
+}
+
+.right {
+    padding-left: 20px;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+ul {
+    padding-left: 20px;
+}
